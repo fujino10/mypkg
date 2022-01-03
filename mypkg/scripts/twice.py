@@ -2,7 +2,7 @@
 import rospy
 from std_msds.msg import Init 32
 
-def cb:
+def cb(message):
     rospy.loginfo(message.data*2)
 
 
