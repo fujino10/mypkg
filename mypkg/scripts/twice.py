@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import rospy
-from std_msds.msg import Init 32
+from std_msds.msg import Init32
 
 def cb(message):
     rospy.loginfo(message.data*2)
