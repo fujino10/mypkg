@@ -7,7 +7,7 @@ def cb(message):
 
 
 rospy.init_node('twice')
-sub = rospy.Subscribe('count_up', Init32, cb)
+sub = rospy.subscribe('count_up', Init32, cb)
 rospy.spin() #this line mean not end the progrum. if it do not exist, this progrum would end straight away
 
 
