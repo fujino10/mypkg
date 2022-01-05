@@ -20,6 +20,7 @@ def is_prime(i):
 rospy.init_node('prime')
 sub = rospy.Subscriber('count_up', Int32, cb)
 pub = rospy.Publisher('prime', Int32, queue_size=1)
+rate = rospy.Rate(10)
 while not rospy.is_shutdown():
     pub.publish('Is number {0} Prime?.{1}'.format(i,is_prime(i)))
     rate.sleep()
