@@ -7,6 +7,7 @@ from std_msgs.msg import Int32
 prime_list = []
 i = 0
 k = 0
+c = 0
 
 def list_prime(meg1):
     global prime_list
@@ -21,6 +22,7 @@ def rand_count(msg2):
     k = random.randint(0, hold2)
 
 def create_crypthgraphy(i, k):
+    global c
     hold3 = prime_list[i]
     hold4 = prime_list[k]
 
@@ -37,5 +39,7 @@ mf = message_filters.ApproximateTimeSynchronizer([sub1, sub2], queue_size=1)
 
 while not rospy.is_shutdown():
     create_crypthgraphy(i, k)
+    cryptography_str = "cryptography is {0}".format(c)
     rospy.loginfo(c)
+    pub.publish(c)
     rate.sleep()
