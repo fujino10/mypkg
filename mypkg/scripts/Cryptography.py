@@ -7,6 +7,7 @@ from std_msgs.msg import Int32
 prime_list = []
 i = 0
 k = 0
+
 def list_prime(meg1):
     global prime_list
     hold1 = mag1.data
@@ -37,4 +38,4 @@ mf = message_filters.ApproximateTimeSynchronizer([sub1, sub2], queue_size=1)
 while not rospy.is_shutdown():
     create_crypthgraphy(i, k)
     rospy.loginfo(c)
-    rate.sleep
+    rate.sleep()
