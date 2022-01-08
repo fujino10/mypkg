@@ -17,7 +17,9 @@ BSD 3-Clause "New" or "Revised" License
 
 Tomoshi Fujino
 
-Ryuichi Ueda(count.pyのAUTHOR)
+Ryuichi Ueda(count.pyの作成者)
+
+Pythonic HighSchool[https://ictsr4.com/sw/] (素数の判定部分の作成者)
 
 ## 参考にさせていただいたURL
 
