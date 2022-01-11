@@ -7,8 +7,6 @@ count.pyはロボットシステム学の第10回の授業中で作成したも�
 
 prime.pyはloginfoのほうに得られた数が素数かどうかを判定する文を出力し、rospy.publishによって素数の値自体を出力します
 
-なお採点の際のお願いなのですがCryptography.pyについては無視していただきたいです。
-
 ## ライセンス
 
 BSD 3-Clause "New" or "Revised" License
