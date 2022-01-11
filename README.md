@@ -5,7 +5,7 @@ count.pyで得た数字を素数かどうか判定するプログラムである
 
 count.pyはロボットシステム学の第10回の授業中で作成したものをそのまま利用しています
 
-prime.pyはloginfoのほうに得られた数が素数かどうかを判定する文を出力し、rospy.publishによって素数の値自体を出力します
+prime.pyはloginfoのほうに得られた数が素数かどうかを判定する文を出力し、rospy.publishによって素数の値をpublishに出力します
 
 ## ライセンス
 
@@ -29,7 +29,7 @@ Pythonでformat関数を使う方法[https://techacademy.jp/magazine/15642]
 
 ROSチュートリアル１２[https://symfoware.blog.fc2.com/blog-entry-2277.html]
 
-
+MibuchiYuta[https://github.com/MibuchiYuta/ROS_ServoDriverHAT]
 
 ## 謝辞
 
@@ -38,5 +38,7 @@ ROSチュートリアル１２[https://symfoware.blog.fc2.com/blog-entry-2277.ht
 count.pyのすべての部分は上田先生の授業で作られたものを使用しています。
 
 pythonでformat関数を使う方法やROSチュートリアルの記事ではpythonの基礎的な関数であるformat関数の扱い方やROSにおける記述の仕方の参考にさせていただきました
+
+MibuchiYutaさんにはROSパッケージの構成と著作権関連の部分の記述の参考にさせていただきました。
 
 この場において感謝申し上げます。ありがとうございました
